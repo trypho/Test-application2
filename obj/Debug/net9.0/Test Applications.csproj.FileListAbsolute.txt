@@ -1,0 +1,14 @@
+C:\Users\Student\Desktop\Test Applications\bin\Debug\net9.0\Test Applications.exe
+C:\Users\Student\Desktop\Test Applications\bin\Debug\net9.0\Test Applications.deps.json
+C:\Users\Student\Desktop\Test Applications\bin\Debug\net9.0\Test Applications.runtimeconfig.json
+C:\Users\Student\Desktop\Test Applications\bin\Debug\net9.0\Test Applications.dll
+C:\Users\Student\Desktop\Test Applications\bin\Debug\net9.0\Test Applications.pdb
+C:\Users\Student\Desktop\Test Applications\obj\Debug\net9.0\Test Applications.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\Test Applications\obj\Debug\net9.0\Test Applications.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\Test Applications\obj\Debug\net9.0\Test Applications.AssemblyInfo.cs
+C:\Users\Student\Desktop\Test Applications\obj\Debug\net9.0\Test Applications.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\Test Applications\obj\Debug\net9.0\Test Applications.dll
+C:\Users\Student\Desktop\Test Applications\obj\Debug\net9.0\refint\Test Applications.dll
+C:\Users\Student\Desktop\Test Applications\obj\Debug\net9.0\Test Applications.pdb
+C:\Users\Student\Desktop\Test Applications\obj\Debug\net9.0\Test Applications.genruntimeconfig.cache
+C:\Users\Student\Desktop\Test Applications\obj\Debug\net9.0\ref\Test Applications.dll
