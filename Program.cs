@@ -18,7 +18,7 @@ namespace MyApplication
             Console.Write("Age: ");
             string? ageStr = Console.ReadLine();
             int age = int.Parse(ageStr);
- 
+
             Console.Write("Gender: ");
             string? gender = Console.ReadLine();
 
@@ -37,6 +37,11 @@ namespace MyApplication
             obj.Details();
             Console.WriteLine($"Value of the cfaculty : {obj.Cfaculty}");
             Console.WriteLine($"Value of the FACULTY  : {obj.FacultyName}");
+
+            Summary conclusion = new Summary();
+
+            Console.WriteLine("><><><><><><><><");
+            Console.WriteLine($"{conclusion.Comment}");
         }
 
     }
