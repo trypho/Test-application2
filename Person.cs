@@ -1,38 +1,45 @@
 class Person
 {
-    protected string name;
-    protected string surname;
-    protected int age;
-    protected string gender;
+    protected string _name;
+    protected string _surname;
+    protected int _age;
+    protected string _gender;
 
+    public Person(string name, string surname, int age, string gender)
+    {
+        _name = name;
+        _surname = surname;
+        _age = age;
+        _gender = gender;
+    }
     public string Name
     {
-        get { return name; }
-        set { name = value; }
+        get { return _name; }
+        set { _name = value; }
     }
     public string Surname
     {
-        get { return surname; }
-        set { surname = value; }
+        get { return _surname; }
+        set { _surname = value; }
     }
     public string Gender
     {
-        get { return gender; }
-        set { gender = value; }
+        get { return _gender; }
+        set { _gender = value; }
     }
     public int Age
     {
-        get { return age; }
-        set { age = value; }
+        get { return _age; }
+        set { _age = value; }
     }
 
     public void PersonDetails()
     {
         Console.WriteLine("####################################");
-        Console.WriteLine($"Name of the person\t: {name}");
-        Console.WriteLine($"Surname\t: {surname}");
-        Console.WriteLine($"Gender\t: {gender}");
-        Console.WriteLine($"Age\t: {age}");
+        Console.WriteLine($"Name of the person\t: {_name}");
+        Console.WriteLine($"Surname\t: {_surname}");
+        Console.WriteLine($"Gender\t: {_gender}");
+        Console.WriteLine($"Age\t: {_age}");
         Console.WriteLine("####################################");
     }
 

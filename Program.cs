@@ -29,14 +29,16 @@ namespace MyApplication
             Console.Write("Course: ");
             string? course = Console.ReadLine();
 
-            Student obj = new Student(name, surname, studNo, gender, age, course!, faculty);
+            Student obj = new Student(name, surname, studNo, gender, age, course, faculty);
+            obj.PersonDetails();
             obj.Details();
             obj.StudentNum = "0411025713081";
             obj.Cfaculty = 'e';
-            obj.FacultyName = obj.Faculty(obj.Cfaculty = 'H');
+            obj.FacultyName = obj.GetFacultyName(obj.Cfaculty = 'H');
             obj.Details();
             Console.WriteLine($"Value of the cfaculty : {obj.Cfaculty}");
             Console.WriteLine($"Value of the FACULTY  : {obj.FacultyName}");
+
 
             Summary conclusion = new Summary();
 

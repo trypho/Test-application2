@@ -1,34 +1,32 @@
 class Student : Person
 {
 
-    private string studentNum;
-    private char cfaculty;
-    private string course;
-    private string facultyName;
+    private string _studentNum ="";
+    private char _cfaculty = ' ';
+    private string _course ="";
+    private string _facultyName="";
 
     public Student(string name1, string surname1, string studNo,string gender,int age,string studCourse, char studFaculty)
+    : base(name1,surname1,age,gender)
     {
-        base.Name= name1;
-        base.surname= surname1;
-        studentNum = studNo;
-        base.Age = age;
-        base.Gender = gender;
-        cfaculty = studFaculty;
-        course = studCourse;
-        facultyName = Faculty(cfaculty);
-    }
+       
+        _studentNum = studNo;
+        _cfaculty = studFaculty;
+        _course = studCourse;
+        _facultyName = GetFacultyName(_cfaculty);
+    } 
 
     public void Details()
     {
         Console.WriteLine($"**************");
         Console.WriteLine($"\t\t\tStudent Details");
-        Console.WriteLine($"Student number\t: {studentNum}");
-        Console.WriteLine($"Course\t\t: {course}");
-        Console.WriteLine($"Faculty\t\t: {facultyName}");
+        Console.WriteLine($"Student number\t: {_studentNum}");
+        Console.WriteLine($"Course\t\t: {_course}");
+        Console.WriteLine($"Faculty\t\t: {_facultyName}");
         Console.WriteLine($"**************");
     }
 
-    public string Faculty(char cfaculty)
+    public string GetFacultyName(char cfaculty)
     {
         string facName = "";
         if (char.ToUpper(cfaculty) == 'I')
@@ -58,19 +56,19 @@ class Student : Person
 
     public string StudentNum
     {
-        get { return studentNum; }
-        set { studentNum = value; }
+        get { return _studentNum; }
+        set { _studentNum = value; }
     }
 
     public char Cfaculty
     {
-        get { return cfaculty; }
-        set { cfaculty = value; }
+        get { return _cfaculty; }
+        set { _cfaculty = value; }
     }
 
     public string FacultyName
     {
-        get { return facultyName; }
-        set { facultyName = value; }
+        get { return _facultyName; }
+        set { _facultyName = value; }
     }
 }
