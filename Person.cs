@@ -37,9 +37,9 @@ class Person
     {
         Console.WriteLine("####################################");
         Console.WriteLine($"Name of the person\t: {_name}");
-        Console.WriteLine($"Surname\t: {_surname}");
-        Console.WriteLine($"Gender\t: {_gender}");
-        Console.WriteLine($"Age\t: {_age}");
+        Console.WriteLine($"Surname\t\t\t: {_surname}");
+        Console.WriteLine($"Gender\t\t\t: {_gender}");
+        Console.WriteLine($"Age\t\t\t: {_age}");
         Console.WriteLine("####################################");
     }
 
