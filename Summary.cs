@@ -1,6 +1,6 @@
 class Summary
 {
-    private string comment= "THANKS FOR INSERTING YOUR DETAILS";
+    private string comment= "THANKS";
 
     public string Comment
     {
